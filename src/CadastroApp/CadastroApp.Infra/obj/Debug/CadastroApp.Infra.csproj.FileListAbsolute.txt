@@ -1,0 +1,9 @@
+C:\Users\a.vieira.de.abreu\source\CadastroApp\CadastroApp.Infra\bin\Debug\CadastroApp.Infra.dll
+C:\Users\a.vieira.de.abreu\source\CadastroApp\CadastroApp.Infra\bin\Debug\CadastroApp.Infra.pdb
+C:\Users\a.vieira.de.abreu\source\CadastroApp\CadastroApp.Infra\bin\Debug\CadastroApp.Domain.dll
+C:\Users\a.vieira.de.abreu\source\CadastroApp\CadastroApp.Infra\bin\Debug\CadastroApp.Domain.pdb
+C:\Users\a.vieira.de.abreu\source\CadastroApp\CadastroApp.Infra\obj\Debug\CadastroApp.Infra.csproj.AssemblyReference.cache
+C:\Users\a.vieira.de.abreu\source\CadastroApp\CadastroApp.Infra\obj\Debug\CadastroApp.Infra.csproj.CoreCompileInputs.cache
+C:\Users\a.vieira.de.abreu\source\CadastroApp\CadastroApp.Infra\obj\Debug\CadastroApp.Infra.csproj.CopyComplete
+C:\Users\a.vieira.de.abreu\source\CadastroApp\CadastroApp.Infra\obj\Debug\CadastroApp.Infra.dll
+C:\Users\a.vieira.de.abreu\source\CadastroApp\CadastroApp.Infra\obj\Debug\CadastroApp.Infra.pdb
