@@ -10,8 +10,8 @@
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="104,33,0,0" TextWrapping="Wrap" Text="Dados" VerticalAlignment="Top"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="39,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Nome"/></TextBlock>
         <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="39,110,0,0" TextWrapping="Wrap" Text="Gênero" VerticalAlignment="Top"/>
-        <TextBox x:Name="nametextBox" HorizontalAlignment="Left" Height="23" Margin="119,69,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
-        <!--<Button x:Name="updateBtn" Content="Atualizar" HorizontalAlignment="Left" Margin="116,148,0,0" VerticalAlignment="Top" Width="130" Click="UpdateClick"/>-->
+        <TextBox x:Name="nametextBox" HorizontalAlignment="Left" Height="23" Margin="119,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="updateBtn" Content="Atualizar" HorizontalAlignment="Left" Margin="116,148,0,0" VerticalAlignment="Top" Width="130" Click="UpdateClick"/>
         <ComboBox x:Name="gendercomboBox" HorizontalAlignment="Left" Margin="119,109,0,0" VerticalAlignment="Top" Width="120">
             <ComboBox.Items>
                 <ComboBoxItem>Mulher</ComboBoxItem>

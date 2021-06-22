@@ -4,3 +4,9 @@ C:\Users\a.vieira.de.abreu\source\CadastroApp\CadastroApp.Domain\obj\Debug\Cadas
 C:\Users\a.vieira.de.abreu\source\CadastroApp\CadastroApp.Domain\obj\Debug\CadastroApp.Domain.csproj.CoreCompileInputs.cache
 C:\Users\a.vieira.de.abreu\source\CadastroApp\CadastroApp.Domain\obj\Debug\CadastroApp.Domain.dll
 C:\Users\a.vieira.de.abreu\source\CadastroApp\CadastroApp.Domain\obj\Debug\CadastroApp.Domain.pdb
+C:\Users\a.vieira.de.abreu\source\CRUD_WPF\src\CadastroApp\CadastroApp.Domain\bin\Debug\CadastroApp.Domain.dll
+C:\Users\a.vieira.de.abreu\source\CRUD_WPF\src\CadastroApp\CadastroApp.Domain\bin\Debug\CadastroApp.Domain.pdb
+C:\Users\a.vieira.de.abreu\source\CRUD_WPF\src\CadastroApp\CadastroApp.Domain\obj\Debug\CadastroApp.Domain.csproj.AssemblyReference.cache
+C:\Users\a.vieira.de.abreu\source\CRUD_WPF\src\CadastroApp\CadastroApp.Domain\obj\Debug\CadastroApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\a.vieira.de.abreu\source\CRUD_WPF\src\CadastroApp\CadastroApp.Domain\obj\Debug\CadastroApp.Domain.dll
+C:\Users\a.vieira.de.abreu\source\CRUD_WPF\src\CadastroApp\CadastroApp.Domain\obj\Debug\CadastroApp.Domain.pdb

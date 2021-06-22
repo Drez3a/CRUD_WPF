@@ -25,5 +25,18 @@ namespace CadastroApp.Infra.Data.Repositories
         {
             return _pessoaDB;
         }
+
+        public void UpdatePessoa(Pessoa p)
+        {
+            Pessoa gp = GetPessoa(p.IdPessoa);
+
+            gp.Nome = p.Nome;
+            gp.Genero = p.Genero;
+        }
+
+        public void DeletePessoa(Pessoa p)
+        {
+            _pessoaDB.Remove(p);
+        }
     }
 }

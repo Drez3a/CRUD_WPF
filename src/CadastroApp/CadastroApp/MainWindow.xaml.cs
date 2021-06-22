@@ -46,9 +46,24 @@ namespace CadastroApp
 
         private void UpdateClick(object sender, RoutedEventArgs e)
         {
-            string id = (pessoaGrid.SelectedItem as Pessoa).IdPessoa;
-            UpdateModal updateModal = new UpdateModal(id);
+            Pessoa pessoa = pessoaGrid.SelectedItem as Pessoa;
+            UpdateModal updateModal = new UpdateModal(pessoa.IdPessoa);
+
+            updateModal.nametextBox.Text = pessoa.Nome;
+            updateModal.gendercomboBox.Text = pessoa.Genero;
+
             updateModal.ShowDialog();
+        }
+
+        private void DeleteClick(object sender, RoutedEventArgs e)
+        {
+            Pessoa pessoa = pessoaGrid.SelectedItem as Pessoa;
+            
+            _pessoaRepository.DeletePessoa(pessoa);
+            // //if just "CrudEntities _db"
+            //var deletePessoa = _db.pessoas.Where(p => p.IdPessoa == Id).Single();
+
+            pessoaGrid.ItemsSource = _pessoaRepository.GetAllPessoas().ToList();
         }
     }
 }

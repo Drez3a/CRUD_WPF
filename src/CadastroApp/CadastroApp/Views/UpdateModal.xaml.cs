@@ -1,4 +1,5 @@
-﻿using CadastroApp.Infra.Data.Repositories;
+﻿using CadastroApp.Domain.Models;
+using CadastroApp.Infra.Data.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +22,7 @@ namespace CadastroApp.Views
     public partial class UpdateModal : Window
     {
         PessoaRepository _pessoaRepository = new PessoaRepository();
-        string Id;
+        private readonly string Id;
 
         public UpdateModal(string id)
         {
@@ -29,10 +30,20 @@ namespace CadastroApp.Views
             Id = id;
         }
 
-        //private void UpdateClick(object sender, RoutedEventArgs e)
-        //{
-        //    //
-        //}
+        private void UpdateClick(object sender, RoutedEventArgs e)
+        {
+            Pessoa pessoa = new Pessoa()
+            {
+                IdPessoa = Id,
+                Nome = nametextBox.Text,
+                Genero = gendercomboBox.Text
+            };
+
+            _pessoaRepository.UpdatePessoa(pessoa);
+
+            MainWindow.MainGrid.ItemsSource = _pessoaRepository.GetAllPessoas().ToList();
+            this.Hide();
+        }
 
     }
 }

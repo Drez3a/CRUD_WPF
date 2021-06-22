@@ -9,11 +9,11 @@ namespace CadastroApp.Domain.Models
     public class Pessoa
     {
         public string IdPessoa { get; set; }
-        public string Nome { get; set; }
-        //public string Sobrenome { get; set; }
+        public string Nome { get; set; }                                   //show na listagem
+        //public string Sobrenome { get; set; }                            //show na listagem
         //public string CPF { get; set; } // 11 DIGITOS
-        //public DateTime DataNascimento { get; set; } // mais de 18 anos
+        //public DateTime DataNascimento { get; set; } // mais de 18 anos //show na listagem
         public string Genero { get; set; }
-        //public Endereco Endereco { get; set; }
+        //public Endereco Endereco { get; set; }                          //show na listagem (com ToString)
     }
 }
